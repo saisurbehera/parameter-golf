@@ -1,0 +1,18 @@
+{
+  "author": "Sai",
+  "github_id": "saisurbehera",
+  "name": "11L Dense Baseline (1xH100 Local)",
+  "blurb": "Non-record 1xH100 local dense baseline for comparison against sparse MLP experiments. 11L + XSA(last 4) + EMA(0.997) + Partial RoPE + LN Scale + Late QAT.",
+  "date": "2026-03-22T00:00:00Z",
+  "track": "non-record-16mb",
+  "val_loss": 5.86155764,
+  "val_bpb": 3.47154460,
+  "pre_quant_val_loss": 2.2968,
+  "pre_quant_val_bpb": 1.3603,
+  "step_stop": 1200,
+  "wallclock_seconds": 1104.798,
+  "bytes_total": 6735678,
+  "bytes_model_int8_zlib": 6670750,
+  "bytes_code": 64928,
+  "gpu": "1xH100"
+}

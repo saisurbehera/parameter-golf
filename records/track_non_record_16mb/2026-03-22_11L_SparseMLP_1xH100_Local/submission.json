@@ -1,0 +1,18 @@
+{
+  "author": "Sai",
+  "github_id": "saisurbehera",
+  "name": "11L SparseMLP Baseline (1xH100 Local)",
+  "blurb": "Non-record 1xH100 local sparse MLP baseline. Same 11L XSA(last 4) + EMA(0.997) + Partial RoPE + LN Scale + Late QAT stack, with dynamic channel-level MLP sparsity and packed sparse export measurement.",
+  "date": "2026-03-22T00:00:00Z",
+  "track": "non-record-16mb",
+  "val_loss": 2.2975,
+  "val_bpb": 1.3607,
+  "pre_quant_val_loss": 2.2975,
+  "pre_quant_val_bpb": 1.3607,
+  "step_stop": 1200,
+  "wallclock_seconds": 1071.183,
+  "bytes_total": 6450797,
+  "bytes_model_int8_zlib": 6378046,
+  "bytes_code": 72751,
+  "gpu": "1xH100"
+}

@@ -1,0 +1,18 @@
+{
+  "author": "Sai",
+  "github_id": "saisurbehera",
+  "name": "11L SparseMLP + Late Attention Precision (1xH100 Local)",
+  "blurb": "Non-record 1xH100 local experiment: 11L + XSA(last 4) + EMA(0.997) + Partial RoPE + LN Scale + Late QAT, with sparse MLP channel masks and late attention exported at higher precision. Final roundtrip val_bpb improved vs the dense local baseline while remaining under the dense artifact size.",
+  "date": "2026-03-22T00:00:00Z",
+  "track": "non-record-16mb",
+  "val_loss": 5.78783761,
+  "val_bpb": 3.42788345,
+  "pre_quant_val_loss": 2.2983,
+  "pre_quant_val_bpb": 1.3612,
+  "step_stop": 1200,
+  "wallclock_seconds": 1014.179,
+  "bytes_total": 6673566,
+  "bytes_model_int8_zlib": 6597193,
+  "bytes_code": 76373,
+  "gpu": "1xH100"
+}
